@@ -1,49 +1,97 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<title>Interesting Stories - About</title>
-	<link rel="stylesheet" type="text/css" href="Style/style.css">
+    <meta charset="UTF-8">
+    <title>My Resume</title>
+    <link rel="stylesheet" href="images/style.css">
 </head>
 <body>
-	<header>
-		<h1>Interesting Stories</h1>
-		<nav>
-			<ul>
-				<li><a href="index.html">Home</a></li>
-				<li><a href="stories.html">Stories</a></li>
-				<li><a href="about.html">About</a></li>
-			</ul>
-		</nav>
-	</header>
-<main>
-	<section>
-		<h2>About Us</h2>
-		<p>Welcome to Interesting Stories, a platform dedicated to sharing fascinating tales from all around the world. Our team of passionate storytellers scours the globe to uncover the most intriguing and unique stories, and we are excited to share them with you.</p>
-		<p>Our mission is to provide you with a diverse range of stories that will inspire, educate, and entertain you. From heartwarming tales of human kindness to thrilling adventures in far-off lands, we have something for everyone.</p>
-		<p>Thank you for visiting our site, and we hope you enjoy exploring the amazing stories we have to offer.</p>
-	</section>
+    <header>
+        <div class="container">
+            <h1 class="header__name">My Name</h1>
+            <nav class="header__nav">
+                <ul>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
 
-	<section>
-		<h2>Meet Our Team</h2>
-		<p>Our team of dedicated writers and researchers are passionate about storytelling and bringing you the most interesting stories from around the world.</p>
-		<ul>
-			<li><strong>Jane Smith</strong> - Editor-in-Chief</li>
-			<li><strong>John Doe</strong> - Senior Writer</li>
-			<li><strong>Samantha Lee</strong> - Researcher</li>
-			<li><strong>Michael Chen</strong> - Web Developer</li>
-		</ul>
-	</section>
+    <main>
+        <section id="summary" class="section__summary">
+            <div class="container">
+                <h2 class="section__title">Summary</h2>
+                <p class="section__subtitle">A brief summary of your professional experience and skills.</p>
+            </div>
+        </section>
 
-	<section>
-		<h2>Latest News</h2>
-		<marquee behavior="scroll" direction="left">
-			<p>Check out our new story on the history of the Great Wall of China!</p>
-		</marquee>
-	</section>
+        <section id="experience" class="section__experience">
+            <div class="container">
+                <h2 class="section__title">Experience</h2>
+                <ul class="section__list">
+                    <li>
+                        <h3 class="section__subtitle">Job Title 1</h3>
+                        <p class="section__text">Company Name</p>
+                        <p class="section__text">Location</p>
+                        <p class="section__text">Duration</p>
+                        <ul class="section__sublist">
+                            <li>Responsibility 1</li>
+                            <li>Responsibility 2</li>
+                            <li>Responsibility 3</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h3 class="section__subtitle">Job Title 2</h3>
+                        <p class="section__text">Company Name</p>
+                        <p class="section__text">Location</p>
+                        <p class="section__text">Duration</p>
+                        <ul class="section__sublist">
+                            <li>Responsibility 1</li>
+                            <li>Responsibility 2</li>
+                            <li>Responsibility 3</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="education" class="section__education">
+            <div class="container">
+                <h2 class="section__title">Education</h2>
+                <ul class="section__list">
+                    <li>
+                        <h3 class="section__subtitle">Degree 1</h3>
+                        <p class="section__text">University Name</p>
+                        <p class="section__text">Location</p>
+                        <p class="section__text">Duration</p>
+                    </li>
+                    <li>
+                        <h3 class="section__subtitle">Degree 2</h3>
+                        <p class="section__text">University Name</p>
+                        <p class="section__text">Location</p>
+                        <p class="section__text">Duration</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="skills" class="section__skills">
+            <div class="container">
+                <h2 class="section__title">Skills</h2>
+                <ul class="section__list">
+                    <li>Skill 1</li>
+                    <li>Skill 2</li>
+                <li>Skill 3</li>
+                <li>Skill 4</li>
+            </ul>
+        </div>
+    </section>
 </main>
 
 <footer>
-	<p>&copy; 2023 Interesting Stories</p>
+    <div class="container">
+        <p class="footer__text">&copy; 2023 My Name</p>
+    </div>
 </footer>
-</body>
-</html>
