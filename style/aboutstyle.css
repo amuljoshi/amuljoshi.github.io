@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.header__name {
+    font-size: 36px;
+    margin: 0;
+    text-align: center;
+}
+
+.header__nav {
+    text-align: center;
+}
+
+.header__nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.header__nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.header__nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    font-size: 18px;
+    transition: all 0.3s ease;
+}
+
+.header__nav a:hover {
+    color: #008080;
+}
+
+.section__title {
+    font-size: 28px;
+    margin: 0;
+    text-align: center;
+}
+
+.section__subtitle {
+    font-size: 18px;
+    margin: 0;
+    text-align: center;
+    color: #666;
+}
+
+.section__text {
+    margin: 0;
+}
+
+.section__list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.section__list li {
+    margin-bottom: 20px;
+}
+
+.section__list h3 {
+    margin-top: 0;
+}
+
+.section__sublist {
+    margin-top: 10px;
+    margin-bottom: 0;
+    padding-left: 20px;
+    list-style: disc;
+}
+
+.section__sublist li {
+    margin-bottom: 10px;
+}
+
+.footer__text {
+    margin: 0;
+    text-align: center;
+    color: #999;
+    font-size: 14px;
+}
